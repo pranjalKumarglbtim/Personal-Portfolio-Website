@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranjal Kumar | Portfolio</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand">
+        <span class="brand-initial">PK</span>
+        <span class="brand-name">Pranjal Kumar</span>
+      </a>
+      <nav class="main-nav">
+        <button class="mobile-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#intro" class="nav-link">Story</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Works</a></li>
+          <li><a href="#timeline" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Connect</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-meta">
+          <span class="hero-badge">👋 Hello, World</span>
+        </div>
+        <h1 class="hero-title">I craft digital experiences that matter</h1>
+        <p class="hero-subtitle">Full-Stack Developer • Security Specialist • AI Explorer</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <picture>
+          <source srcset="images/hero-4k.jpg" media="(min-width:1200px)">
+          <source srcset="images/hero-2k.jpg" media="(min-width:768px)">
+          <img src="images/hero-2k.jpg" alt="Hero illustration (responsive)" width="3840" height="2160" loading="eager">
+        </picture>
+      </div>
+    </section>
+
+    <section id="intro" class="intro-section">
+      <div class="intro-container">
+        <div class="intro-media">
+          <img src="images/story-4k.jpg" alt="My journey photograph (4K)" class="story-img" width="1920" height="1080" loading="lazy">
+        </div>
+        <div class="intro-content">
+          <h2 class="section-title">My Origin Story</h2>
+          <div class="story-timeline">
+            <div class="story-item">
+              <div class="story-icon">🚀</div>
+              <div class="story-text">
+                <h3>First Code</h3>
+                <p>Started programming with Python at age 16, building automation scripts for personal projects.</p>
+              </div>
+            </div>
+            <div class="story-item">
+              <div class="story-icon">🛡️</div>
+              <div class="story-text">
+                <h3>Cybersecurity Path</h3>
+                <p>Discovered passion for ethical hacking during college, completed multiple CTF challenges.</p>
+              </div>
+            </div>
+            <div class="story-item">
+              <div class="story-icon">🤖</div>
+              <div class="story-text">
+                <h3>AI Exploration</h3>
+                <p>Dove deep into ML and Generative AI, building models that solve real-world problems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2 class="section-title-centered">Technical Arsenal</h2>
+      <p class="section-subtitle">Tools and technologies I wield with precision</p>
+      <div class="skills-showcase">
+        <div class="skill-category">
+          <div class="category-header">
+            <img src="images/frontend-icon.svg" alt="Frontend">
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-header">
+            <img src="images/backend-icon.svg" alt="Backend">
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">REST API</span>
+            <span class="skill-tag">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-header">
+            <img src="images/security-icon.svg" alt="Security">
+            <h3>Security</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Web Security</span>
+            <span class="skill-tag">SOC</span>
+            <span class="skill-tag">Penetration Testing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-header">
+            <img src="images/ai-icon.svg" alt="AI">
+            <h3>AI/ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Generative AI</span>
+            <span class="skill-tag">NLP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="section-title-centered">Featured Projects</h2>
+      <div class="projects-gallery">
+        <article class="project-card project-1">
+          <div class="project-image">
+            <picture>
+              <source srcset="images/project1-4k.jpg" media="(min-width:1200px)">
+              <img src="images/project1-2k.jpg" alt="Fake News Detection project screenshot" width="3840" height="2160" loading="lazy">
+            </picture>
+          </div>
+          <div class="project-info">
+            <h3>Fake News Detection System</h3>
+            <p>A machine learning model that classifies news articles using TF-IDF and Python. Built to combat misinformation.</p>
+            <div class="project-tech">
+              <span>Python</span><span>Scikit-learn</span><span>ML</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card project-2">
+          <div class="project-image">
+            <picture>
+              <source srcset="images/project2-4k.jpg" media="(min-width:1200px)">
+              <img src="images/project2-2k.jpg" alt="AI Thumbnail Generator project screenshot" width="3840" height="2160" loading="lazy">
+            </picture>
+          </div>
+          <div class="project-info">
+            <h3>AI Thumbnail Generator</h3>
+            <p>Generative AI-powered platform for creating engaging YouTube thumbnails automatically.</p>
+            <div class="project-tech">
+              <span>AI API</span><span>JavaScript</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="timeline-section">
+      <h2 class="section-title-centered">My Journey Through Time</h2>
+      <div class="timeline-track">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jul - Sep 2023</span>
+            <h3>Web Development Intern</h3>
+            <p>Softpro India Computer Technologies Pvt. Ltd.</p>
+            <img src="images/company1.svg" alt="Company logo" class="timeline-logo">
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Apr - Jun 2025</span>
+            <h3>Google Cloud Arcade Facilitator</h3>
+            <p>Google Cloud</p>
+            <img src="images/company2.svg" alt="Company logo" class="timeline-logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2 class="section-title">Let's Create Something Amazing</h2>
+          <p>I'm currently open to new opportunities and collaborations. Whether you have a project in mind or just want to say hello, I'd love to hear from you.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <img src="images/email-icon.svg" alt="Email">
+              <span>pranjal@example.com</span>
+            </div>
+            <div class="contact-item">
+              <img src="images/location-icon.svg" alt="Location">
+              <span>India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <input type="text" placeholder="Subject">
+          <textarea rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Pranjal Kumar. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/navigation.js"></script>
+</body>
+</html>

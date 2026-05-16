@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Kumar | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <nav class="navbar" aria-label="Primary">
+      <div class="logo">PK</div>
+      <button class="menu-toggle" id="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+      <ul id="primary-navigation" class="nav-links" role="menubar">
+        <li role="none"><a role="menuitem" href="#hero">Home</a></li>
+        <li role="none"><a role="menuitem" href="#intro">Story</a></li>
+        <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+        <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+        <li role="none"><a role="menuitem" href="#timeline">Journey</a></li>
+        <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero-section">
+      <div class="hero-text">
+        <h1>Hi, I'm Pranjal Kumar</h1>
+        <p>Full-Stack Developer & Cybersecurity Practitioner</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View My Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="intro-container">
+          <div class="intro-media">
+            <img src="images/story-4k.jpg" alt="My journey photograph" class="story-img" width="1920" height="1080" loading="lazy">
+          </div>
+          <div class="intro-content">
+            <h2 class="section-title">My Origin Story</h2>
+            <div class="story-timeline">
+              <div class="story-item">
+                <div class="story-icon">🚀</div>
+                <div class="story-text">
+                  <h3>First Code</h3>
+                  <p>Started programming with Python at age 16, building automation scripts for personal projects.</p>
+                </div>
+              </div>
+              <div class="story-item">
+                <div class="story-icon">🛡️</div>
+                <div class="story-text">
+                  <h3>Cybersecurity Path</h3>
+                  <p>Discovered passion for ethical hacking during college, completed multiple CTF challenges.</p>
+                </div>
+              </div>
+              <div class="story-item">
+                <div class="story-icon">🤖</div>
+                <div class="story-text">
+                  <h3>AI Exploration</h3>
+                  <p>Dove deep into ML and Generative AI, building models that solve real-world problems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title-centered">Technical Arsenal</h2>
+        <p class="section-subtitle">Tools and technologies I wield with precision</p>
+        <div class="skills-showcase">
+          <div class="skill-category">
+            <div class="category-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <h3>Frontend</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="category-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 0-6 2c.5 2 1 4 2 5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a8 8 0 0 1 .7-2.36"/></svg>
+              <h3>Backend</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">REST API</span>
+              <span class="skill-tag">GraphQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="category-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <h3>Security</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Web Security</span>
+              <span class="skill-tag">SOC</span>
+              <span class="skill-tag">Penetration Testing</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="category-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              <h3>AI/ML</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">Generative AI</span>
+              <span class="skill-tag">NLP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title-centered">Featured Projects</h2>
+        <div class="projects-gallery">
+          <article class="project-card project-1">
+            <div class="project-image">
+              <picture>
+                <source srcset="images/project1-4k.jpg" media="(min-width:1200px)">
+                <img src="images/project1-2k.jpg" alt="Fake News Detection project screenshot" width="3840" height="2160" loading="lazy" srcset="images/project1-4k.jpg 3840w, images/project1-2k.jpg 1920w" sizes="(max-width: 768px) 100vw, 50vw">
+              </picture>
+            </div>
+            <div class="project-info">
+              <h3>Fake News Detection System</h3>
+              <p>A machine learning model that classifies news articles using TF-IDF and Python. Built to combat misinformation.</p>
+              <div class="project-tech">
+                <span>Python</span><span>Scikit-learn</span><span>ML</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card project-2">
+            <div class="project-image">
+              <picture>
+                <source srcset="images/project2-4k.jpg" media="(min-width:1200px)">
+                <img src="images/project2-2k.jpg" alt="AI Thumbnail Generator project screenshot" width="3840" height="2160" loading="lazy" srcset="images/project2-4k.jpg 3840w, images/project2-2k.jpg 1920w" sizes="(max-width: 768px) 100vw, 50vw">
+              </picture>
+            </div>
+            <div class="project-info">
+              <h3>AI Thumbnail Generator</h3>
+              <p>Generative AI-powered platform for creating engaging YouTube thumbnails automatically.</p>
+              <div class="project-tech">
+                <span>AI API</span><span>JavaScript</span><span>HTML/CSS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="timeline-section">
+      <div class="container">
+        <h2 class="section-title-centered">My Journey Through Time</h2>
+        <div class="timeline-track">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul - Sep 2023</span>
+              <h3>Web Development Intern</h3>
+              <p>Softpro India Computer Technologies Pvt. Ltd.</p>
+              <svg class="timeline-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16v1a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v1"/><rect x="16" y="2" width="8" height="12" rx="2"/></svg>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr - Jun 2025</span>
+              <h3>Google Cloud Arcade Facilitator</h3>
+              <p>Google Cloud</p>
+              <svg class="timeline-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2 class="section-title">Let's Create Something Amazing</h2>
+            <p>I'm currently open to new opportunities and collaborations. Whether you have a project in mind or just want to say hello, I'd love to hear from you.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>pranjal@example.com</span>
+              </div>
+              <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+                <span>India</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <input type="text" placeholder="Subject">
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p class="copyright">&copy; 2026 Pranjal Kumar. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/pranjal-kumar" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/pranjal-kumar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/pranjal_kumar" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/navigation.js"></script>
+</body>
+</html>
