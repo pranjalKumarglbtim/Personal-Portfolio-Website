@@ -1,43 +1,60 @@
 # Personal Portfolio Website
 
-A modern, responsive portfolio website showcasing projects, skills, and journey as a Full-Stack Developer & Cybersecurity Practitioner.
+## Project Description
+
+A responsive personal portfolio website showcasing skills, projects, and contact information. Built with HTML5, CSS3, and responsive design principles.
 
 ## Features
 
-- **Responsive Design** - Works on all devices (desktop, tablet, mobile)
-- **Dark/Light Mode** - Theme toggle support
-- **Smooth Animations** - CSS animations and transitions
-- **Accessible** - Semantic HTML, ARIA labels, keyboard navigation
-- **Performance Optimized** - Lazy loading, optimized images
+- Responsive design (mobile, tablet, desktop)
+- Semantic HTML5 structure
+- CSS Grid and Flexbox layouts
+- Accessible navigation
+- Contact form with validation
+- Hover effects and animations
 
-## Tech Stack
+## Technologies Used
 
-**Frontend:**
 - HTML5
-- CSS3 (Grid, Flexbox, Custom Properties)
-- JavaScript (ES6+)
+- CSS3
+- JavaScript (basic interactivity)
+- Git for version control
 
-**Sections:**
-- Hero banner
-- Origin story timeline
-- Skills showcase (Frontend, Backend, Security, AI/ML)
-- Featured projects
-- Work journey timeline
-- Contact form
-
-## Projects Featured
-
-1. **Fake News Detection System** - ML model using TF-IDF and Python
-2. **AI Thumbnail Generator** - Generative AI for YouTube thumbnails
-
-## Getting Started
+## Setup and Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/pranjalKumarglbtim/Personal-Portfolio-Website.git
    ```
 
-2. Open `week1-portfolio/index.html` in your browser
+2. Navigate to the project directory:
+   ```bash
+   cd Personal-Portfolio-Website
+   ```
+
+3. Open `week1-portfolio/index.html` in your browser
+
+## Code Structure
+
+```
+week1-portfolio/
+├── index.html          # Main HTML file
+├── css/
+│   ├── style.css       # Main stylesheet
+│   ├── responsive.css  # Media queries
+│   └── variables.css   # CSS custom properties
+├── js/
+│   └── navigation.js   # Mobile menu functionality
+└── images/             # Project screenshots and assets
+```
+
+## Technical Requirements Met
+
+- **HTML5 semantic elements**: header, nav, main, section, footer, article used throughout
+- **External CSS file**: style.css contains organized styles with variables.css for custom properties
+- **Responsive design**: Media queries in responsive.css for mobile/tablet/desktop breakpoints
+- **Git version control**: Repository initialized with 3 commits
+- **Accessibility**: ARIA labels, skip link, semantic markup
 
 ## Author
 
