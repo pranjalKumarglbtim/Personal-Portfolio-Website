@@ -60,6 +60,21 @@ week1-portfolio/
 
 ## Screenshots
 
+### Hero Section
+![Hero Banner](week1-portfolio/images/hero-illustration.svg)
+
+### Skills Showcase
+![Skills Section](week1-portfolio/images/project1-2k.jpg)
+
+### Projects Gallery
+![Projects Section](week1-portfolio/images/project2-2k.jpg)
+
+### Work Timeline
+![Timeline Section](week1-portfolio/images/story-4k.jpg)
+
+### Contact Section
+![Contact Section](week1-portfolio/images/location-icon.svg)
+
 ### Desktop View
 ![Portfolio Screenshot](week1-portfolio/images/project1-2k.jpg)
 
