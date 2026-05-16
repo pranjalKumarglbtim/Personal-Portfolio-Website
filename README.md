@@ -61,25 +61,22 @@ week1-portfolio/
 ## Screenshots
 
 ### Hero Section
-![Hero Banner](week1-portfolio/images/hero-illustration.svg)
+![Hero Banner](week1-portfolio/images/screenshot-hero.png)
 
 ### Story Section
-![Story Section](week1-portfolio/images/story-4k.jpg)
+![Story Section](week1-portfolio/images/screenshot-story.png)
 
 ### Skills Showcase
-![Skills Section](week1-portfolio/images/project1-2k.jpg)
+![Skills Section](week1-portfolio/images/screenshot-skills.png)
 
 ### Projects Gallery
-![Projects Section](week1-portfolio/images/project2-2k.jpg)
+![Projects Section](week1-portfolio/images/screenshot-projects.png)
 
 ### Timeline Section
-![Timeline Section](week1-portfolio/images/story-4k.jpg)
+![Timeline Section](week1-portfolio/images/screenshot-timeline.png)
 
 ### Contact Section
-![Contact Section](week1-portfolio/images/location-icon.svg)
-
-### Desktop View
-![Portfolio Screenshot](week1-portfolio/images/project1-2k.jpg)
+![Contact Section](week1-portfolio/images/screenshot-contact.png)
 
 ### Sections:
 1. Hero Banner - Introduction
