@@ -63,13 +63,16 @@ week1-portfolio/
 ### Hero Section
 ![Hero Banner](week1-portfolio/images/hero-illustration.svg)
 
+### Story Section
+![Story Section](week1-portfolio/images/story-4k.jpg)
+
 ### Skills Showcase
 ![Skills Section](week1-portfolio/images/project1-2k.jpg)
 
 ### Projects Gallery
 ![Projects Section](week1-portfolio/images/project2-2k.jpg)
 
-### Work Timeline
+### Timeline Section
 ![Timeline Section](week1-portfolio/images/story-4k.jpg)
 
 ### Contact Section
